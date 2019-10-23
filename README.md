@@ -22,6 +22,9 @@ $sequelize db:seed:all
 
 #run the server
 $node server.js
+
+#adding dummy data
+knex run:seed
 ```
 
 
